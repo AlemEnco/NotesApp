@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    width: 100%;
+    justify-content: center;    /*horizontal*/
+    /*align-items: flex-start;      /*vertical */
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.todo{
+    width: 80%;
+    display: flex;
+    background: #262A41;
+    margin: auto;
+    padding: 0px;
+    border-radius: 1rem;
+}
+
+.welcome{
+    width: 40%;
+    height: 700px;
+    /* background: red; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 50px 30px 30px 30px;
+}
+
+.notas{
+    width: 40%;
+    /* background: red; */
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+}
+
+.hisam{
+    /* background: purple; */
+    width: 60%;
+    margin: auto;
+    padding: 20% 0%;
+    padding-bottom: 15%;
+}
+
+.hisam h1{
+    font-size: 25px;
+    color: white;
+}
+
+.hisam p{
+    font-size: 12px;
+    color: #717482;
+}
+
+.foto{
+    width: 170px;
+    height: 170px;
+    background: greenyellow;
+    margin: auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border-color: white;
+}
+
+.foto img{
+    text-align: center;
+    width: 170px;
+    height: 170px;
+}
+
+.notas{
+    border-radius: 1rem;
+    background: white;
+    width: 55%;
+    padding: 0px;
+    margin: 15px;
+}
+
+.misnotas{
+    padding: 50px;
+}
+
+.misnotas h1{
+   font-size: 40px;
+   font-weight: 900;
+}
+
+.input input{
+    border-radius: 1rem;
+    /* padding: 5px; */
+    border-width: 4px;
+    border-color: black;
+    height: 30px;
+    width: 80%;
+}
+
+.input button{
+    width: 20px;
+    height: 20px;
+    border-radius: 5rem;
+    margin-left: 5%;
+}
+
+.today{
+    padding: 0px 50px;
+}
+
+.today h5{
+    font-weight: 700;
+}
+
+.today hr{
+    margin: 15px 0px;
+    opacity: 0.4;
+}
+
+.cuerpotoday{
+    display: flex;
+}
+
+.cuerpotoday input{
+    width: 15px;
+    height: 15px;
+}
