@@ -87,24 +87,28 @@ main{
 }
 
 .misnotas h1{
+    padding-bottom: 13px;
    font-size: 40px;
    font-weight: 900;
 }
 
-.input input{
+#noteDescription{
     border-radius: 1rem;
-    /* padding: 5px; */
+    padding: 5px;
     border-width: 4px;
     border-color: black;
     height: 30px;
     width: 80%;
+    border-style: solid;
 }
 
-.input button{
+#addNote{
     width: 20px;
     height: 20px;
     border-radius: 5rem;
     margin-left: 5%;
+    border-style: solid;
+    font-size: 14px;
 }
 
 .today{
@@ -120,11 +124,43 @@ main{
     opacity: 0.4;
 }
 
-.cuerpotoday{
+#cuerpotoday{
     display: flex;
+    justify-content: space-between;
 }
 
-.cuerpotoday input{
-    width: 15px;
-    height: 15px;
+.check{
+    display: flex;
+    padding-top: 5px;
+}
+
+.check input{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+}
+
+.check input:checked{
+    background-color: rgb(25, 222, 233);
+}
+
+.check p{
+    padding-left: 15px;
+}
+
+#cuerpotoday button{
+    right: 0px !important;
+}
+
+#ApprovedBtn{
+    border-radius: 1.5rem;
+    padding: 5px 20px;
+    background-color: rgb(176, 236, 212);
+    color: rgb(25, 146, 97);
+    border-color: rgb(176, 236, 212);
+    border-style: hidden;
 }

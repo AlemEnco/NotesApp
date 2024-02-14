@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notas</title>
+    <title>Notes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,23 +20,25 @@
             </section>
             <section class="notas">
                 <div class="misnotas">
-                    <h1>Mis notas</h1>
+                    <h1>My notes</h1>
                     <div class="input">
-                        <input type="text"><button>+</button>
+                        <input id="noteDescription" type="text"><button id="addNote" type="button" onclick="registerNote()">+</button>
                     </div>
                 </div>
                 <div class="today">
                     <h5>Today</h5>
                     <hr>
-                    <div class="cuerpotoday">
-                        <input type="checkbox" name="" id="">
-                        <p>Create initial layout for homepage</p>
-                        <button>Approved</button>
+                    <div id="cuerpotoday">
+                        <!-- <div class="check">
+                            <input type="checkbox">
+                            <p>Create initial layout for homepage</p>
+                        </div>
+                        <button id="ApprovedBtn">Approved</button> -->
                     </div>
                 </div>
             </section>
         </section>
     </main>
-    <script src="js/scrips.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
