@@ -124,14 +124,15 @@ main{
     opacity: 0.4;
 }
 
-#cuerpotoday{
+.cuerpotoday{
     display: flex;
     justify-content: space-between;
+    padding: 5px 0px;
 }
 
 .check{
     display: flex;
-    padding-top: 5px;
+    align-items: center;
 }
 
 .check input{
@@ -149,18 +150,26 @@ main{
 }
 
 .check p{
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
-#cuerpotoday button{
+#deleteNote{
+    appearance: none;
+    border-style: hidden;
+    font-size: 25px;
+    background: none;
+}
+
+.cuerpotoday button{
     right: 0px !important;
 }
 
-#ApprovedBtn{
+.ApprovedBtn{
     border-radius: 1.5rem;
     padding: 5px 20px;
-    background-color: rgb(176, 236, 212);
-    color: rgb(25, 146, 97);
+    margin-right: 10px;
+    background-color: rgb(255 156 154 / 59%);
+    color: red;
     border-color: rgb(176, 236, 212);
     border-style: hidden;
 }
